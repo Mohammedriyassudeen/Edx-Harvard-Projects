@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title >New tab</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fontawesome.com/icons/magnifying-glass?s=solid&f=classic">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
+        <div>
+        <ul class="side-links">
+            <li><a class="image-links" href="google-images.html">Google Images</a></li>
+            <li><a class="image-links" href="advanced-search.html">Advanced Google search</a></li> 
+        </ul>
+        </div>
+        
+        
+        
+        <div id = "unique" style="margin-bottom: 38px;">    
+            <img class ="image" src="Google-images.png"  alt="Google PNG" >
+        </div>
         <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit">
+                <div class="search_bar"> 
+                    <i  class="icon fa fa-search" aria-hidden="true"></i>
+                    <input id="search_bar_text" type="text" size = "40%" placeholder="Search or Google type a URL" name="q">
+                </div>
+            
+            <div class="unique_1">
+                <input type="submit" value="Google Search" class="button_search">
+                <input type="submit" name="btnI" value="I'm feeling lucky" class="button_search">
+            </div>
+            
         </form>
     </body>
 </html>
